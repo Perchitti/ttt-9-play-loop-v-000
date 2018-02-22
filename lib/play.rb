@@ -35,8 +35,14 @@ def turn(board)
   end
 end
 
-def play
-  
+counter = 0
+def play(board)
+loop do
+  puts turn(board)
+  counter =+ 1
+  if counter >= 10
+    break
+end
 end
 
 # Define your play method below
